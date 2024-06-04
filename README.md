@@ -9,16 +9,16 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ### The Solution
 
-[x] Fix package.json file to remove lint warning about typescript version for eslint plugin for typescript by installing @typescript-eslint/eslint-plugin. Deleted package-lock.json file and node_modules and reinstalled all the dependencies running `npm install`
+- [x] Fix package.json file to remove lint warning about typescript version for eslint plugin for typescript by installing @typescript-eslint/eslint-plugin. Deleted package-lock.json file and node_modules and reinstalled all the dependencies running `npm install`
 
-[x] created component for `ItemCount` and unit test
-[x] created a `updaterFn` utility function to update the `quantity` of the clicked item
-[x] separated the `addToCart` function in a utility function
-[x] created `BasketItemCount` component and its unit test
-[x] created `ItemCountList` component and its unit test
-[x] created `ItemCard` component and its unit test
-[x] Fixed the `failing unit test` in `test.spec.tsx` file
-[x] Add unit test for all the new components / utilities.
+- [x] created component for `ItemCount` and unit test
+- [x] created a `updaterFn` utility function to update the `quantity` of the clicked item
+- [x] separated the `addToCart` function in a utility function
+- [x] created `BasketItemCount` component and its unit test
+- [x] created `ItemCountList` component and its unit test
+- [x] created `ItemCard` component and its unit test
+- [x] Fixed the `failing unit test` in `test.spec.tsx` file
+- [x] Add unit test for all the new components / utilities.
 
 ### ScreenShots
 
