@@ -28,7 +28,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ![Empty Basket](image-2.png)
 
-![Screen Recording](screen-recording.mov)
+![Screen Recording](next-coding-challenge.gif)
 
 ![Basket](image-1.png)
 
