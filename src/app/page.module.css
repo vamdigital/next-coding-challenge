@@ -10,7 +10,7 @@
 .description {
   display: inherit;
   justify-content: inherit;
-  align-items: inherit;
+  align-items: flex-start;
   font-size: 0.85rem;
   max-width: var(--max-width);
   width: 100%;
@@ -39,6 +39,11 @@
   grid-template-columns: repeat(4, minmax(25%, auto));
   max-width: 100%;
   width: var(--max-width);
+}
+
+.itemCount {
+  display: flex;
+  flex-direction: column;
 }
 
 .basket,
@@ -97,7 +102,7 @@
   }
 
   .grid {
-    /* TODO Look up how to make a single column list*/
+    grid-template-columns: none;
     margin-bottom: 120px;
     max-width: 320px;
     text-align: center;
@@ -162,6 +167,6 @@
 /* Tablet and Smaller Desktop */
 @media (min-width: 701px) and (max-width: 1120px) {
   .grid {
-    /* TODO Look up how to make a 2 column list*/
+    grid-template-columns: auto auto;
   }
 }
